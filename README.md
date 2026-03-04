@@ -1,16 +1,17 @@
-## Hi there 👋
+## 合同条款与IT交付物一致性检测（Java 示例）
 
-<!--
-**gaolifen/gaolifen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+本仓库提供了一个可直接编译运行的 Java 示例：`ContractDeliveryConsistencyChecker.java`。
 
-Here are some ideas to get you started:
+### 编译
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```bash
+javac ContractDeliveryConsistencyChecker.java
+```
+
+### 运行
+
+```bash
+java ContractDeliveryConsistencyChecker
+```
+
+程序会按“合同条款关键字是否在交付物文本中全部出现”来判断一致性，并输出每条条款的检测结果。
